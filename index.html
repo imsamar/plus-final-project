@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Rainbow</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <form id="search-form" class="mb-3">
+            <div class="row">
+              <div class="col-9">
+                <input
+                  type="search"
+                  placeholder="type a city..."
+                  autofocus="on"
+                  autocomplete="off"
+                  class="form-control"
+                  id="city-input"
+                />
+              </div>
+              <div class="col-3">
+                <input
+                  type="submit"
+                  value="search"
+                  class="btn btn-primary w-100"
+                />
+              </div>
+            </div>
+          </form>
+          <div class="overview">
+            <h1 id="city"></h1>
+            <ul>
+              <li>
+                <div id="date"></div>
+              </li>
+              <li>
+                <div id="description">Clear sky</div>
+              </li>
+            </ul>
+            <div class="row">
+              <div class="col-6">
+                <div class="clearfix" weather-temperature>
+                  <img
+                    src=""
+                    alt="clear"
+                    class="float-left"
+                    id="icon"
+                    width="70px"
+                  />
+                  <strong id="temperature"></strong>
+                  <span class="units">°C</span>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <ul>
+                  <li>
+                    Humidity: <span class="humidity" id="humidity"></span> %
+                  </li>
+                  <li>Wind: <span class="wind" id="wind"></span> km/h</li>
+                </ul>
+              </div>
+            </div>
+            <div class="weather-forecast" id="forecast">
+       
+            </div>
+          </div>
+        </div>
+        <small>
+          <a href="" target="_blank">Open-source code</a> by Samar Joharchi
+        </small>
+      </div>
+    </div>
+    <script src="src/app.js"></script>
+  </body>
+</html>
