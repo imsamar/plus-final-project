@@ -18,64 +18,61 @@
   <body>
     <div class="container">
       <div class="weather-app-wrapper">
-        <div class="weather-app">
-          <form id="search-form" class="mb-3">
-            <div class="row">
-              <div class="col-9">
-                <input
-                  type="search"
-                  placeholder="type a city..."
-                  autofocus="on"
-                  autocomplete="off"
-                  class="form-control"
-                  id="city-input"
-                />
-              </div>
-              <div class="col-3">
-                <input
-                  type="submit"
-                  value="search"
-                  class="btn btn-primary w-100"
-                />
-              </div>
-            </div>
-          </form>
-          <div class="overview">
-            <h1 id="city"></h1>
-            <ul>
-              <li>
-                <div id="date"></div>
-              </li>
-              <li>
-                <div id="description">Clear sky</div>
-              </li>
-            </ul>
-            <div class="row">
-              <div class="col-6">
-                <div class="clearfix" weather-temperature>
-                  <img
-                    src=""
-                    alt="clear"
-                    class="float-left"
-                    id="icon"
-                    width="70px"
+        <div class="weather-app-2thwrapper">
+          <img src="image/Untitled-a.jpg" alt="" />
+          <div class="weather-app">
+            <form id="search-form" class="mb-3">
+              <div class="row">
+                <div class="col-9">
+                  <input
+                    type="search"
+                    placeholder="type a city..."
+                    autofocus="on"
+                    autocomplete="off"
+                    class="form-control input1 w-100"
+                    id="city-input"
                   />
-                  <strong id="temperature"></strong>
-                  <span class="units">°C</span>
+                </div>
+                <div class="col-3">
+                  <input type="submit" value="search" class="button w-100" />
                 </div>
               </div>
+            </form>
+            <div class="overview">
+              <h1 id="city"></h1>
+              <ul>
+                <li>
+                  <div id="date"></div>
+                </li>
+                <li>
+                  <div id="description">Clear sky</div>
+                </li>
+              </ul>
+              <div class="row">
+                <div class="col-6">
+                  <div class="clearfix" weather-temperature>
+                    <img
+                      src=""
+                      alt="clear"
+                      class="float-left"
+                      id="icon"
+                      width="70px"
+                    />
+                    <strong id="temperature"></strong>
+                    <span class="units">°C</span>
+                  </div>
+                </div>
 
-              <div class="col-6">
-                <ul>
-                  <li>
-                    Humidity: <span class="humidity" id="humidity"></span> %
-                  </li>
-                  <li>Wind: <span class="wind" id="wind"></span> km/h</li>
-                </ul>
+                <div class="col-6">
+                  <ul>
+                    <li>
+                      Humidity: <span class="humidity" id="humidity"></span> %
+                    </li>
+                    <li>Wind: <span class="wind" id="wind"></span> km/h</li>
+                  </ul>
+                </div>
               </div>
-            </div>
-            <div class="weather-forecast" id="forecast">
-       
+              <div class="weather-forecast" id="forecast"></div>
             </div>
           </div>
         </div>
