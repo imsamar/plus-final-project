@@ -1,17 +1,14 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: "Covered By Your Grace", cursive;
   background: #eae3d8;
+  background-image: url("https://i.pinimg.com/564x/fa/8a/a9/fa8aa9748e1e8f80628b4e19a91d9a32.jpg");
 }
-.container {
-  background: #e8ded0;
-}
+
 h1 {
-  padding-bottom: 30px;
   color: #9b8463;
   font-size: 35px;
-  font-weight: 100;
+  font-weight: bold;
   line-height: 28px;
-  margin-bottom: 0;
 }
 
 ul {
@@ -21,17 +18,22 @@ ul {
 
 li {
   list-style: none;
-  margin: 0;
-  padding: 0;
-
-  color: rgb(135, 135, 135);
-  font-size: 16px;
-  font-weight: 100;
+  margin: 10px;
+  background: #cdceba;
+  border-radius: 30px;
+  opacity: 0.7;
+  padding: 10px;
+  text-decoration: double;
+  color: #9b8463;
+  font-size: 21px;
+  font-weight: bold;
   line-height: 19px;
+  text-shadow: #000;
 }
 form {
   padding-top: 10px;
   padding-bottom: 30px;
+  color: #c7b66e;
 }
 
 li:first-letter {
@@ -42,15 +44,23 @@ small {
 
   margin: 0 auto;
 }
-.weather-app-wrapper {
+.container {
   background: #e8ded0;
+
+  border-radius: 30px;
+  background-image: url("https://i.pinimg.com/564x/6c/a6/e6/6ca6e6a6a776f9fada4686fc8d99000c.jpg");
+}
+.weather-app-wrapper {
+  background: transparent;
   max-width: 800px;
   margin: 30px auto;
+
   padding-top: 20px;
 }
 .weather-app-2thwrapper {
+  background: #e8ded0;
   margin: 40px auto;
-  border: 2px solid #9b9998;
+  border: 2px solid #c7c8b4;
   border-radius: 30px;
   border-top-left-radius: 0;
   margin-bottom: 5px;
@@ -63,18 +73,22 @@ small {
 
 .overview {
   margin-bottom: 50px;
+  font-size: 37px;
+  color: #9b8463;
 }
-
+.weather-temperature {
+  margin-top: -10px;
+}
 .weather-temperature img {
   margin-right: 5px;
   height: 64px;
   width: 64px;
+  padding-bottom: 20px;
 }
 
 .weather-temperature strong {
-  color: rgb(33, 33, 33);
-  font-size: 10px;
-  line-height: 1;
+  padding-bottom: 20px;
+
   font-weight: 400;
 }
 
@@ -109,11 +123,13 @@ small {
 }
 .button {
   background: #cfbb9c;
-  padding: 10px 25px;
-  border: #a5ba96;
+  padding: 5px 20px;
+  border: 2px solid #aec5dc;
   border-radius: 15px;
-  color: white;
+  color: rgb(135, 135, 135);
   margin-top: -5px;
+  font-size: 21px;
+  font-weight: bolder;
 }
 .input1 {
   background: #e1d4c2;
@@ -124,4 +140,7 @@ small {
 .input1:focus {
   color: #a5ba96;
   background: #e1d4c2;
+}
+.date-c0l {
+  padding-left: 70px;
 }
