@@ -5,10 +5,11 @@ body {
 }
 
 h1 {
+  line-height: 28px;
+
   color: #9b8463;
   font-size: 35px;
   font-weight: bold;
-  line-height: 28px;
 }
 
 ul {
@@ -39,11 +40,7 @@ form {
 li:first-letter {
   text-transform: capitalize;
 }
-small {
-  display: block;
 
-  margin: 0 auto;
-}
 .container {
   background: #e8ded0;
 
@@ -78,6 +75,8 @@ small {
 }
 .weather-temperature {
   margin-top: -10px;
+
+  padding-bottom: 0;
 }
 .weather-temperature img {
   margin-right: 5px;
@@ -94,8 +93,8 @@ small {
 
 .weather-temperature .units {
   position: relative;
-  font-size: 16px;
-  top: -34px;
+  font-size: 20px;
+  top: -20px;
 }
 
 .weather-temperature .active {
@@ -143,4 +142,9 @@ small {
 }
 .date-c0l {
   padding-left: 70px;
+}
+.link {
+  display: block;
+  margin: 0 auto;
+  background: #cdceba;
 }
